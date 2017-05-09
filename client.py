@@ -16,4 +16,4 @@ session = xmlrpclib.Serverproxy (URL)
 
 # -- Info --
 list_methods = session.system.listmethods() # 
-
+description_methods = session.system.methodSignature(Function) # Change Function whith the methods name
